@@ -1,14 +1,23 @@
-function App() {
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-  return (
-    <>
-      <p>Paragraph</p>
-      <h1>Big Header</h1>
-      <h2>Sub Title</h2>
-      <button className="btn-1">button</button>
-      <a>Link</a>
-    </>
-  )
+import Root from './layout/Root/index.jsx';
+import Home from './pages/Home/Home.jsx';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+    children: [
+      {
+        path: '/',
+        element: <Home/>
+      },
+    ]
+  }
+]);
+
+function App () {
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
