@@ -1,2 +1,60 @@
 :root {
+  --clr-blue: #035793;
+  --clr-darkgreen: #0ca70c;
+  --clr-darkred: #770d16;
+  --clr-darkred-hover: #c10717;
+  --clr-darkyellow: #ec760e;
+  --clr-darkyellow-hover: #ca6d1b;
+  --clr-light: #f5f5f5;
+  --clr-lightgreen: #40be40;
+  --clr-lightyellow: #f09a2b;
+  --clr-lightyellow-hover: #feb85c;
+  --clr-gray: #9ca3af;
+  --clr-red: #dc2626;
+
+  /* blue: rgb(3, 87, 147) */
+  /* darkred: rgb(119, 13, 22) */
+  /* darkyellow: 	rgb(236, 118, 14)*/
+  /* lightyelow: 	rgb(240, 154, 43)*/
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: MyriadPro-Regular;
+  src: url("./fonts/MyriadPro-Regular.otf");
+}
+
+body {
+  font-family: "MyriadPro-Regular", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  color: var(--clr-light);
 }

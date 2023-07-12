@@ -1,0 +1,17 @@
+.btn-1 {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  background-color: var(--clr-lightyellow);
+  color: var(--clr-light);
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(240, 154, 43, 0.5),
+    0 6px 6px rgba(240, 154, 43, 0.5), 0 0 100px -10px var(--clr-lightyellow);
+    transition: color 0.3s;
+}
+
+.btn-1:hover {
+  background-color: var(--clr-lightyellow-hover);
+}
