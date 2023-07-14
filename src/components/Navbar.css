@@ -26,16 +26,12 @@
 /* 2xl*/
 @media (max-width: 1536px) {
     .nav__link{
-        font-size: var(--size-3xl);
+        font-size: var(--size-2xl);
     }
 }
 
 /* xl */
-@media (max-width: 1280px) {
-    .nav__link{
-        font-size: var(--size-2xl);
-    }
-}
+/* @media (max-width: 1280px) {} */
 
 /* lg */
 @media (max-width: 1024px) {

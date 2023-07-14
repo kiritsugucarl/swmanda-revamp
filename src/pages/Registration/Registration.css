@@ -1,0 +1,45 @@
+.registration__img{
+    max-width: 90%;
+}
+
+.registration__header{
+    font-size: var(--size-3xl);
+    text-align: center;
+}
+
+.form__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.registration__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.registration__column{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.registration__field{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__label{
+    font-size: var(--size-2xl);
+}
+
+.registration__button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.registration__btn{
+    font-size: var(--size-2xl);
+}
