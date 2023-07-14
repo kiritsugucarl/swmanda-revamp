@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name": "FINANCIAL ASSISTANCE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#ee5957",
+        "requirements": [
+            "Requirement 1",
+            "Requirement 2",
+            "Requirement 3",
+            "Requirement 4"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "MEDICAL ASSISTANCE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#8080d6",
+        "requirements": [
+            "Medical",
+            "Birth Certificate",
+            "Drug Test",
+            "Etc."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "BURIAL ASSISTANCE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#ff00cc",
+        "requirements": [
+            "Requirement 1",
+            "Requirement 2",
+            "Requirement 3",
+            "Requirement 4"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "TUPAD",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#eeffcc",
+        "requirements": [
+            "Requirement 1",
+            "Requirement 2",
+            "Requirement 3",
+            "Requirement 4"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "ASSISTANCE 5",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#00ffcc",
+        "requirements": [
+            "Requirement 1",
+            "Requirement 2"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "ASSISTANCE 6",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#ffffcc",
+        "requirements": [
+            "Requirement 1",
+            "Requirement 2",
+            "Req 3"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "ASSISTANCE 7",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt facilisis dignissim. Vivamus at turpis urna. In cursus ornare libero ac elementum. Proin nisi augue, dignissim ac neque ac, tempus iaculis diam. Proin vel facilisis metus. Sed accumsan nibh et massa consequat vehicula. Nam accumsan nisl in congue rhoncus.",
+        "backgroundColor": "#00ffcc",
+        "requirements": [
+            "Requirement 1",
+            "Requirement 2"
+        ]
+    }
+]

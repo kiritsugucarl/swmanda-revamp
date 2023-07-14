@@ -5,6 +5,7 @@ import Home from './pages/Home/Home.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy.jsx';
 import RegisterProcess from './pages/RegisterProcess/RegisterProcess.jsx'
 import Registration from './pages/Registration/Registration.jsx';
+import SetupAccount from './pages/SetupAccount/SetupAccount.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
       {
         path: '/registration',
         element: <Registration/>
-      }
+      },
+      {
+        path: '/setup-account',
+        element: <SetupAccount/>
+      },
     ]
   }
 ]);
