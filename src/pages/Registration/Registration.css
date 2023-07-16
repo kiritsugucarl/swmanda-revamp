@@ -25,15 +25,6 @@
     gap: 2rem;
 }
 
-.registration__field{
-    display: flex;
-    flex-direction: column;
-}
-
-.registration__label{
-    font-size: var(--size-2xl);
-}
-
 .registration__button-wrapper{
     display: flex;
     flex-direction: row;

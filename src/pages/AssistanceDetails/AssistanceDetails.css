@@ -1,0 +1,45 @@
+.assistanceDetails__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.assistanceDetails__header{
+    font-size: var(--size-5xl);
+}
+
+.assistanceDetails__details{
+    max-width: 100ch;
+}
+
+.assistanceDetails__description{
+    font-size: var(--size-xl);
+    text-align: justify;
+}
+
+.assistanceDetails__requirements{
+    display: flex;
+    flex-direction: column;
+}
+
+.assistanceDetails__requirements-title{
+    font-size: var(--size-3xl);
+}
+
+.assistanceDetails__list{
+}
+
+.assistanceDetails__list-item{
+    font-size: var(--size-xl);
+}
+
+.assistanceDetails__button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+.assistanceDetails__button{
+    font-size: var(--size-2xl);
+}

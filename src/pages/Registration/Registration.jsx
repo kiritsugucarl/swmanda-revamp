@@ -45,8 +45,8 @@ const Registration = () => {
                 <form onSubmit={handleSubmit(onSubmit)} className="form__wrapper">
                     <div className="registration__wrapper">
                         <div className="registration__column">
-                            <div className="registration__field">
-                                <label className='registration__label'>First Name: </label>
+                            <div className="input-field">
+                                <label className='input-label'>First Name: </label>
                                 <input className='input' type='text' name='firstName' {...register('firstName')} />
                                 {errors.firstName && (
                                     <div className='error-message'>
@@ -54,8 +54,8 @@ const Registration = () => {
                                     </div>
                                 )}
                             </div>
-                            <div className="registration__field">
-                                <label className='registration__label'>Middle Name: </label>
+                            <div className="input-field">
+                                <label className='input-label'>Middle Name: </label>
                                 <input className='input' type='text' name='middleName' {...register('middleName')} />
                                 {errors.middleName && (
                                     <div className='error-message'>
@@ -63,8 +63,8 @@ const Registration = () => {
                                     </div>
                                 )}
                             </div>
-                            <div className="registration__field">
-                                <label className='registration__label'>Last Name: </label>
+                            <div className="input-field">
+                                <label className='input-label'>Last Name: </label>
                                 <input className='input' type='text' name='surName' {...register('surName')} />
                                 {errors.surName && (
                                     <div className='error-message'>
@@ -72,8 +72,8 @@ const Registration = () => {
                                     </div>
                                 )}
                             </div>
-                            <div className="registration__field">
-                                <label className='registration__label'>Suffix: </label>
+                            <div className="input-field">
+                                <label className='input-label'>Suffix: </label>
                                 <input className='input' type='text' name='suffix' {...register('suffix')} />
                                 {errors.suffix && (
                                     <div className='error-message'>
@@ -83,8 +83,8 @@ const Registration = () => {
                             </div>
                         </div>
                         <div className="registration__column">
-                            <div className="registration__field">
-                                <label className='registration__label'>Birthdate: </label>
+                            <div className="input-field">
+                                <label className='input-label'>Birthdate: </label>
                                 <input className='input' type='date' name='birthDate' {...register('birthDate')} />
                                 {errors.birthDate && (
                                     <div className='error-message'>
@@ -92,8 +92,8 @@ const Registration = () => {
                                     </div>
                                 )}
                             </div>
-                            <div className='registration__field'>
-                                <label className='registration__label'>Password:</label>
+                            <div className='input-field'>
+                                <label className='input-label'>Password:</label>
                                 <input className='input' type='password' name='password' {...register('password')}/>
                                 {errors.password && (
                                     <div className='error-message'>
@@ -101,8 +101,8 @@ const Registration = () => {
                                     </div>
                                 )}
                             </div>
-                            <div className='registration__field'>
-                                <label className='registration__label'>Confirm Password:</label>
+                            <div className='input-field'>
+                                <label className='input-label'>Confirm Password:</label>
                                 <input className='input' type='password' name='confirmPassword' {...register('confirmPassword')}/>
                                 {errors.confirmPassword && (
                                     <div className='error-message'>

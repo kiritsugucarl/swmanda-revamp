@@ -74,7 +74,9 @@ const RegisterProcess = () => {
                                 </span>
                             </p>
                             <br/>
-                            <Link to="/privacy-policy" className='btn lightyellow-btn process__link'>CREATE AN ACCOUNT</Link>
+                            <div className="process__btn">
+                                <Link to="/privacy-policy" className='btn lightyellow-btn process__link'>CREATE AN ACCOUNT</Link>
+                            </div>
 
                         </div>
                     </div>

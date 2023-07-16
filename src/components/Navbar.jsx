@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import logo from '/logo.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -7,27 +6,27 @@ const Navbar = () => {
         <nav className='nav fullwidth'>
             <ul className='nav__ul'>
                 <li className='nav__li'>
-                    <Link to="" className='nav__link btn'>
+                    <Link to="/" className='nav__link btn'>
                         Home
                     </Link>
                 </li>
                 <li className='nav__li'>
-                    <Link to="" className='nav__link btn'>
+                    <Link to="/prfile" className='nav__link btn'>
                         Profile
                     </Link>
                 </li>
                 <li className='nav__li'>
-                    <Link to="" className='nav__link btn'>
+                    <Link to="/assistance" className='nav__link btn'>
                         Assistance
                     </Link>
                 </li>
                 <li className='nav__li'>
-                    <Link to="" className='nav__link btn'>
+                    <Link to="/my-assistance" className='nav__link btn'>
                         My Assistance
                     </Link>
                 </li>
                 <li className='nav__li'>
-                    <Link to="" className='nav__link btn'>
+                    <Link to="/login" className='nav__link btn'>
                         LOGIN
                     </Link>
                 </li>

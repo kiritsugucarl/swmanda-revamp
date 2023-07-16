@@ -1,4 +1,66 @@
+.setup__h1{
+    max-width: 15ch;
+    text-align: center;
+}
+
+.setup__form-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+
 .setup__img{
     max-width: 90%;
 }
 
+.setup__title{
+    font-size: var(--size-3xl);
+}
+
+.setup__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.setup__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.setup__column{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.setup__field{
+    width: 20rem;
+}
+
+.setup__button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.setup__step2-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.setup__btn{
+    font-size: var(--size-2xl);
+}
+
+.setup__extra-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.extra-field{
+    gap: 0.5rem;
+}

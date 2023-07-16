@@ -1,0 +1,25 @@
+.registerSuccess__wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.registerSuccess__header{
+    font-size: var(--size-4xl);
+}
+
+.registerSuccess__details{
+    font-size: var(--size-2xl);
+}
+
+.registerSuccess__name{
+    color: var(--clr-darkyellow);
+    font-weight: 600;
+}
+
+.registerSuccess__button{
+    font-size: var(--size-3xl);
+    color: var(--clr-blue);
+    padding: 0;
+    font-weight: 600;
+}

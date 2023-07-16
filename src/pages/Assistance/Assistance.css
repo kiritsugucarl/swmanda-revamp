@@ -1,0 +1,27 @@
+.assistance__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-grow: 1;
+    gap: 2rem;
+}
+
+.assistance__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.card-title{
+    font-size: var(--size-3xl);
+    text-align: center;
+}
+
+.card-details{
+    font-size: var(--size-xl);
+}
+
+.assistance-link{
+    font-size: var(--size-xl);
+}

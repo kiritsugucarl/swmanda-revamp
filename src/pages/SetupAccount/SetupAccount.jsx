@@ -43,7 +43,7 @@ const SetupAccount = () => {
     return(
         <main className="main container">
             <section className='main__section hero-section section'>
-                <h1 className='hero__header'>I-SETUP ANG ACCOUNT</h1>
+                <h1 className='hero__header setup__h1'>I-SETUP ANG ACCOUNT</h1>
                 <img className='setup__img' src={registerImg} />
             </section>
             <section className="main__section content-section section">

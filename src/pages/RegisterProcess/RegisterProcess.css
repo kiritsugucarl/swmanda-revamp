@@ -40,8 +40,14 @@
     font-size: var(--size-2xl);
 }
 
-.process__link{
+.process__btn{
+    margin-left:auto;
+    margin-right: auto;
     margin-top: auto;
+}
+
+.process__link{
+    font-size: var(--size-2xl);
 }
 
 /* 2xl*/
