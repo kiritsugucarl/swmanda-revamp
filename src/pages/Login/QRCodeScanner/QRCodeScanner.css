@@ -1,0 +1,52 @@
+.scanner-container {
+    margin-block: 2rem;
+    width: 25em;
+    text-align: center;
+}
+
+.scanner {
+    position: relative;
+    background-color: #3f3832;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.scanner-frame {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-image: url('../../../assets/scannerframe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 90%;
+    z-index: 1;
+}
+
+.scanner video {
+    padding: 1rem 2.5rem;
+    height: 100%;
+    position: relative;
+}
+
+.file-upload {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ec760e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-input-label:hover {
+    background-color: #d4650a;
+}
+
+#file-input {
+    display: none;
+}

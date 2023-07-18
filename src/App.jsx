@@ -7,6 +7,7 @@ import AssistanceDetails from './pages/AssistanceDetails/AssistanceDetails.jsx';
 import AssistanceSuccess from './pages/AssistanceSuccess/AssistanceSuccess.jsx';
 import Home from './pages/Home/Home.jsx';
 import Login from './pages/Login/Login.jsx';
+import QRCodeScanner from './pages/Login/QRCodeScanner/QRCodeScanner.jsx';
 import MyAssistance from './pages/MyAssistance/MyAssistance.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy.jsx';
 import Profile from './pages/Profile/Profile.jsx';
@@ -76,6 +77,14 @@ const router = createBrowserRouter([
       {
         path: '/profile',
         element: <Profile/>
+      },
+      {
+        path: '/scanner',
+        element: <QRCodeScanner/>
+      },
+      {
+        path: '/status',
+        element: <Status/>
       }
     ]
   }

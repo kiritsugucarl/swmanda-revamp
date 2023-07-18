@@ -70,7 +70,7 @@ const RegisterProcess = () => {
                                 </span>
                                 <br/>
                                 <span className='process__fil-details'>
-                                    Maghintay sa anunsiyo ng opisina tungkol sa inyon g aplikasyon sa pamamagitan ng inyong detalyeng ibinigay.
+                                    Maghintay sa anunsiyo ng opisina tungkol sa inyong aplikasyon sa pamamagitan ng inyong detalyeng ibinigay.
                                 </span>
                             </p>
                             <br/>

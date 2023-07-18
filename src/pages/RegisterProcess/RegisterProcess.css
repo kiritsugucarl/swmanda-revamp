@@ -14,7 +14,7 @@
 .process__header-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -33,11 +33,25 @@
 
 .process__details{
     max-width: 60ch;
+    text-align: justify;
+}
+
+.process__english-details{
+    font-size: var(--size-lg);
+}
+
+.process__fil-details{
+    font-style: italic;
+    font-size: var(--size-base);
 }
 
 .process__english-header,
 .process__fil-header{
     font-size: var(--size-2xl);
+}
+
+.process__fil-header{
+    font-style: italic;
 }
 
 .process__btn{
@@ -54,10 +68,60 @@
 /* @media (max-width: 1536px) {} */
 
 /* xl */
-/* @media (max-width: 1280px) {} */
+@media (max-width: 1280px) {
+    .process__english-header,
+    .process__fil-header{
+        font-size: var(--size-xl);
+    }
+
+    .process__english-details{
+        font-size: var(--size-base);
+    }
+    
+    .process__fil-details{
+        font-style: italic;
+        font-size: var(--size-sm);
+    }
+
+    .process__header-container{
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .process__link{
+        font-size: var(--size-xl);
+    }
+}
 
 /* lg */
-/* @media (max-width: 1024px) {} */
+@media (max-width: 1024px) {
+    .process__details-container{
+        flex-direction: column;
+    }
+
+    .process__english-header,
+    .process__fil-header{
+        font-size: var(--size-lg);
+    }
+
+    .process__english-details{
+        font-size: var(--size-sm);
+    }
+
+    .process__header-container{
+        gap: 0;
+        text-align: left;
+    }
+    
+    .process__fil-details{
+        font-style: italic;
+        font-size: var(--size-xs);
+    }
+
+    .process__link{
+        font-size: var(--size-lg);
+    }
+}
 
 /* md */
 @media (max-width: 768px) {
@@ -67,7 +131,25 @@
 }
 
 /* sm */
-/* @media (max-width: 640px) {} */
+@media (max-width: 640px) {
+    .process__english-header,
+    .process__fil-header{
+        font-size: var(--size-base);
+    }
+
+    .process__english-details{
+        font-size: var(--size-xs);
+    }
+
+    .process__fil-details{
+        font-style: italic;
+        font-size: var(--size-xs);
+    }
+    
+    .process__link{
+        font-size: var(--size-base);
+    }
+}
 
 /* xs */
 /* @media (max-width: 475px) {} */

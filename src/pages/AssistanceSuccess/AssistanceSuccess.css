@@ -1,0 +1,44 @@
+.assistanceSuccess__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.assistanceSuccess__header{
+    font-size: var(--size-4xl);
+}
+
+.assistanceSuccess__details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.assistanceSuccess__text{
+    font-size: var(--size-3xl);
+}
+
+.assistanceSuccess__title-p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.assistanceSuccess__p {
+    font-style: italic;
+}
+
+.assistanceSuccess__notice-p{
+    font-size: var(--size-2xl);
+    font-weight: 600;
+}
+
+.assistanceSuccess__button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 90%;
+}
+
+.assistanceSuccess__btn{
+    font-size: var(--size-2xl);
+}

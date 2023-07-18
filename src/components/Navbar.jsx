@@ -11,7 +11,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='nav__li'>
-                    <Link to="/prfile" className='nav__link btn'>
+                    <Link to="/profile" className='nav__link btn'>
                         Profile
                     </Link>
                 </li>

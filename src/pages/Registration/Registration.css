@@ -34,3 +34,37 @@
 .registration__btn{
     font-size: var(--size-2xl);
 }
+
+/* 2xl*/
+/* @media (max-width: 1536px) {} */
+
+/* xl */
+/* @media (max-width: 1280px) {} */
+
+/* lg */
+@media (max-width: 1024px) {
+    .registration__header{
+        font-size: var(--size-2xl);
+    }
+
+    .registration__btn{
+        font-size: var(--size-xl);
+    }
+}
+
+/* md */
+/* @media (max-width: 768px) {} */
+
+/* sm */
+@media (max-width: 640px) {
+    .registration__header{
+        font-size: var(--size-xl);
+    }
+
+    .registration__btn{
+        font-size: var(--size-lg);
+    }
+}
+
+/* xs */
+/* @media (max-width: 475px) {} */

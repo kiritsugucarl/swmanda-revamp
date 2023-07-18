@@ -1,0 +1,30 @@
+[
+    {
+        "firstName": "John",
+        "middleName": "Doe",
+        "lastName": "Smith",
+        "birthdate": "2023-02-04",
+        "password": "password1"
+    },
+    {
+        "firstName": "Jane",
+        "middleName": "Doe",
+        "lastName": "Johnson",
+        "birthdate": "1992-05-15",
+        "password": "password2"
+    },
+    {
+        "firstName": "Michael",
+        "middleName": "Brown",
+        "lastName": "Miller",
+        "birthdate": "1988-07-30",
+        "password": "password3"
+    },
+    {
+        "firstName": "Emily",
+        "middleName": "Davis",
+        "lastName": "Anderson",
+        "birthdate": "1995-03-12",
+        "password": "password4"
+    }
+]

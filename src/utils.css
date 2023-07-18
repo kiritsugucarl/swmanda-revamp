@@ -168,12 +168,28 @@
   .hero__header-user{
     font-size: var(--size-2xl);
   }
+
+  .input-label{
+    font-size: var(--size-lg)
+  }
+
+  .input{
+    font-size: var(--size-lg);
+  }
 }
 
 /* md */
 @media (max-width: 768px) {
   .container{
     max-width: 640px;
+  }
+
+  .registration__img{
+    display: none;
+  }
+
+  .hero__header{
+    font-size: var(--size-3xl);
   }
 
   .main{
@@ -211,6 +227,14 @@
 
   .hero__header-user{
     font-size: var(--size-2xl);
+  }
+
+  .input-label{
+    font-size: var(--size-base)
+  }
+
+  .input{
+    font-size: var(--size-base);
   }
 }
 
